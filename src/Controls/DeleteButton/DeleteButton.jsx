@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './DeleteButton.scss'
 
 const DeleteButton = (props) => {
     return ( 
-        <button className="btn btn-default btn-sm">Small button</button>
+        <button className="btn delete-btn">Delete</button>
      );
 }
  
