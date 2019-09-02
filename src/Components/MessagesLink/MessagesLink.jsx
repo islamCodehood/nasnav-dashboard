@@ -1,5 +1,5 @@
 import React from 'react';
-import MessageIcon from '../Icons/MessageIcon'
+import MessageIcon from '../Icons/MessageIcon/MessageIcon'
 import './MessagesLink.scss'
 const MessagesLink = () => {
     return ( 
