@@ -1,0 +1,12 @@
+@import '../../sass/colors';
+
+.notification {
+    width: 150px;
+    height: 50px;   
+    background: $button-blue;
+    color: #fff;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    -moz-border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: 50px;
+}
