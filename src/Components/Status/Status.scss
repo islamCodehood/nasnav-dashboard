@@ -1,0 +1,16 @@
+@import '../../sass/colors';
+.status-option {
+    width: 240px;
+    height: 80px;   
+    background: $button-blue;
+    color: $tinted-blue;
+    margin: 50px 0 0 50px;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    -moz-border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 15px 15px 0px;
+    justify-content: space-evenly;
+    .toggle-icon {
+        margin-right: 1rem;
+        fill: #fff;
+    }
+}

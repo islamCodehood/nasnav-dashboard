@@ -1,15 +1,17 @@
 @import '../../sass/colors';
 
-.message-notification {
-    width: 130px;
-    height: 50px;   
+.sorting-option {
+    width: 240px;
+    height: 80px;   
     background: $button-blue;
-    color: #fff;
+    color: $tinted-blue;
+    margin: 50px 0 0 50px;
     -webkit-border-radius: 15px 0px 0px 15px;
     -moz-border-radius: 15px 0px 0px 15px;
     border-radius: 15px 0px 0px 15px;
-    margin-left: 50px;
-    .message-icon {
+    justify-content: space-evenly;
+    .sorting-icon {
+        margin-right: 1rem;
         fill: #fff;
     }
 }
