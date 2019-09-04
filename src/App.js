@@ -1,11 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import DeleteButton from './Controls/DeleteButton/DeleteButton'
+import MessagesLink from './Components/MessagesLink/MessagesLink'
+import NotificationLink from './Components/NotificationLink/NotificationLink'
+import Sorting from './Components/Sorting/Sorting'
+import Status from './Components/Status/Status'
+import Pages from './Components/Pages/Pages'
+
 function App() {
   return (
     <div className="App">
-      <DeleteButton />
+      <MessagesLink />
+      <NotificationLink />
+      <Sorting />
+      <Status />
+      <Pages />
     </div>
   );
 }
