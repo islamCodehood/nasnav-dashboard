@@ -3,7 +3,7 @@ import './EditButton.scss'
 
 const EditButton = (props) => {
     return ( 
-        <button className="btn edit-btn">Edit</button>
+        <button className="btn btn-block edit-btn mr-3">Edit</button>
      );
 }
  
