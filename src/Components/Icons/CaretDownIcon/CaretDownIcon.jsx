@@ -1,12 +1,10 @@
 import React from 'react';  
-
+import './CaretDownIcon.scss'
 const CaretDownIcon = () => {
     return ( 
-        <div>
-          
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	y="0px" width="292.362px" height="292.362px" viewBox="0 0 292.362 292.362"
-	style="enable-background:new 0 0 292.362 292.362;" xml:space="preserve">
+        <div className="d-inline caret-icon">
+<svg version="1.1" id="Capa_1"  x="0px"
+	y="0px" width="24px" height="24px" viewBox="0 0 292.362 292.362">
 	<g>
 		<path
 			d="M286.935,69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952,0-9.233,1.807-12.85,5.424
