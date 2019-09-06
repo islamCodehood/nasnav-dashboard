@@ -1,9 +1,10 @@
 import React from 'react';
+import { tsPropertySignature } from '@babel/types';
 
-const NavMenuItem = () => {
+const NavMenuItem = (props) => {
     return ( 
         <li>
-            Menu Item
+            <a href="#/">{props.itemName}</a>
         </li>
      );
 }
