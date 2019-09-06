@@ -1,4 +1,6 @@
 @import '../../sass/colors';
+@import '../../sass/variables';
+@import '../../sass/globals';
 
 .sorting-option {
     width: 240px;
@@ -6,9 +8,7 @@
     background: $button-blue;
     color: $tinted-blue;
     margin: 50px 0 0 50px;
-    -webkit-border-radius: 15px 0px 0px 15px;
-    -moz-border-radius: 15px 0px 0px 15px;
-    border-radius: 15px 0px 0px 15px;
+    @include radius-l($b-radius-left);
     justify-content: space-evenly;
     .sorting-icon {
         margin-right: 1rem;

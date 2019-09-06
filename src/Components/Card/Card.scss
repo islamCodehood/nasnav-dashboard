@@ -1,11 +1,13 @@
 @import '../../sass/colors';
 @import '../../sass/fonts';
+@import '../../sass/variables';
+@import '../../sass/globals';
 
 .brand-card {
     width: 280px;
     background: $card-grey;
     border: none;
-    border-radius: 15px;
+    @include radius($b-radius);
     margin-left: 50px;
     .title-card {
         color: $card-title;
@@ -19,8 +21,5 @@
             width: 50%;
             border-right: 3px solid #fff;
         }
-    }
-    .button-group {
-        //justify-content: space-evenly;
     }
 }

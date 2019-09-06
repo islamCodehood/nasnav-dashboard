@@ -1,0 +1,16 @@
+@import '../../sass/colors';
+@import '../../sass/globals';
+@import '../../sass/variables';
+
+input {
+    color: $tinted-blue;
+    background: #7893b9;
+    border: none;
+    @include radius-l(10px 0 0 10px);
+    &::placeholder {
+        color: $tinted-blue;
+    }
+    &:focus {
+        outline: none;
+    }
+}
