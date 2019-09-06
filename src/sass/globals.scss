@@ -1,0 +1,35 @@
+@import './colors';
+@import './variables';
+
+@mixin radius-r($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+@mixin radius-l($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+@mixin radius($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+
+
+
+.icon-button {
+    
+    padding: 1rem;
+    margin-left: 50px;
+    width: 90px;
+    @include radius($b-radius);
+}
+
+.icon-button:focus {
+    background: $button-blue;
+    fill: #fff;
+    color: #fff;
+    box-shadow: none;
+}
