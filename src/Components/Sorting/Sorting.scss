@@ -3,11 +3,11 @@
 @import '../../sass/globals';
 
 .sorting-option {
-    width: 240px;
+    width: 180px;
     height: 80px;   
     background: $button-blue;
     color: $tinted-blue;
-    margin: 50px 0 0 50px;
+    margin-right: 5px;
     @include radius-l($b-radius-left);
     justify-content: space-evenly;
     .sorting-icon {
