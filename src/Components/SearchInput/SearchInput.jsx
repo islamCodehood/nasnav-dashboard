@@ -4,8 +4,8 @@ import './SearchInput.scss'
 
 const SearchInput = () => {
     return ( 
-        <div>
-            <input type="text" name="search" id="search" className=" p-3" placeholder="Search" />
+        <div className="col-3 text-right">
+            <input type="text" name="search" id="search" className=" p-2" placeholder="Search" />
             <SearchIconButton />
         </div>
      );
