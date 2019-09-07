@@ -4,6 +4,7 @@
 
 .search-icon {
     background: #7893b9;
+    margin-top: -5px;
     @include radius-r(0 10px 10px 0);
     svg {
         fill: $tinted-blue;
