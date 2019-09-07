@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './AccountSettings.scss'
 const AccountSettings = () => {
     return ( 
-        <button className="btn btn-link text-light">Account settings</button>
+        <button className="btn btn-link mb-3"><span className="small">Account settings</span></button>
      );
 }
  
