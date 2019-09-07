@@ -8,7 +8,7 @@ const Status = () => {
         <div className="status-option d-flex flex-column align-items-between">
             <div className="row no-gutters justify-content-start px-3">
                 <TogglingIcon />
-                <span>Status</span>
+                <span className="small mt-1">Status</span>
             </div>
             <div className="row no-gutters justify-content-between align-items-center px-3">
                 <span>Live (ON)</span>
