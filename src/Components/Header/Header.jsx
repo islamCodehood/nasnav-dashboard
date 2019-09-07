@@ -26,7 +26,7 @@ const Header = () => {
                     <Avatar />
                     <UserName />
                     <AccountSettings />
-                    <div className="d-flex justify-content-around">
+                    <div className="d-flex justify-content-between">
                         <MessagesLink />
                         <NotificationLink />
                     </div>
