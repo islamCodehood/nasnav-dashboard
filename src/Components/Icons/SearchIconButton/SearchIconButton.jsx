@@ -3,9 +3,9 @@ import './SearchIconButton.scss'
     
 const SearchIconButton = () => {
     return ( 
-        <button className="btn btn-default search-icon p-3">
+        <button className="btn btn-default search-icon p-2">
             <svg version="1.1" id="Capa_1" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="0 0 30.239 30.239">
+	 width="20px" height="20px" viewBox="0 0 30.239 30.239">
 <g>
 	<path d="M20.194,3.46c-4.613-4.613-12.121-4.613-16.734,0c-4.612,4.614-4.612,12.121,0,16.735
 		c4.108,4.107,10.506,4.547,15.116,1.34c0.097,0.459,0.319,0.897,0.676,1.254l6.718,6.718c0.979,0.977,2.561,0.977,3.535,0

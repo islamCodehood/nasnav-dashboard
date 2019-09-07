@@ -7,7 +7,7 @@ const NavMenu = () => {
         'NasNav', 'Dashboard home', 'Menu Item', 'Menu Item', 'Menu Item', 'Menu Item'
     ]
     return ( 
-        <nav className="">
+        <nav className="col-7">
             <ul className="top-nav d-flex">
                 {
                     navItems.map(item => (
