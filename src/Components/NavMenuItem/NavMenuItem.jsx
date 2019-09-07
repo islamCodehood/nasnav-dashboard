@@ -1,10 +1,10 @@
 import React from 'react';
-import { tsPropertySignature } from '@babel/types';
+import './NavMenuItem.scss'
 
 const NavMenuItem = (props) => {
     return ( 
-        <li>
-            <a href="#/">{props.itemName}</a>
+        <li className="nav-item">
+            <a href="#/" className="small">{props.itemName}</a>
         </li>
      );
 }
