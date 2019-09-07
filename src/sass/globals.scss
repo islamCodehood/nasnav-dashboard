@@ -20,16 +20,19 @@
 
 
 .icon-button {
-    
     padding: 1rem;
-    margin-left: 50px;
     width: 90px;
     @include radius($b-radius);
+    svg {
+        fill: #343434;
+    }
 }
 
 .icon-button:focus {
     background: $button-blue;
-    fill: #fff;
     color: #fff;
     box-shadow: none;
+    svg {
+        fill: #fff;
+    }
 }
