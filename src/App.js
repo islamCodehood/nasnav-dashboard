@@ -1,20 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import MessagesLink from './Components/MessagesLink/MessagesLink'
-import NotificationLink from './Components/NotificationLink/NotificationLink'
-import Sorting from './Components/Sorting/Sorting'
-import Status from './Components/Status/Status'
-import Pages from './Components/Pages/Pages'
+import Header from './Components/Header/Header'
+import BodyWrapper from './Components/BodyWrapper/BodyWrapper';
 
 function App() {
   return (
-    <div className="App">
-      <MessagesLink />
-      <NotificationLink />
-      <Sorting />
-      <Status />
-      <Pages />
+    <div className="App container-fluid px-0">
+      <Header />
+      <BodyWrapper />
     </div>
   );
 }
