@@ -10,8 +10,8 @@ const NavMenu = () => {
         <nav className="col-7">
             <ul className="top-nav d-flex">
                 {
-                    navItems.map(item => (
-                        <NavMenuItem itemName={item} />
+                    navItems.map((item, index) => (
+                        <NavMenuItem itemName={item} key={index} />
                     ))
                 }
                 
