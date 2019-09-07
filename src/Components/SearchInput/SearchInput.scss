@@ -5,10 +5,12 @@
 input {
     color: $tinted-blue;
     background: #7893b9;
-    border: none;
+    border: 1px solid #7893b9;
     @include radius-l(10px 0 0 10px);
     &::placeholder {
         color: $tinted-blue;
+        font-size: 80%;
+        font-weight: 400;
     }
     &:focus {
         outline: none;
